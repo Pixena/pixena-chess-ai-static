@@ -7,11 +7,6 @@ FILES = {
   'https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css': 'libs/chessboard-1.0.0.min.css'
 }
 
-IMAGES = [
-  'bk.png','bq.png','br.png','bb.png','bn.png','bp.png',
-  'wk.png','wq.png','wr.png','wb.png','wn.png','wp.png'
-]
-
 def ensure_dir(p):
   d = os.path.dirname(p)
   if d and not os.path.exists(d):
